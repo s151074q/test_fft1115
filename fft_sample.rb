@@ -1,5 +1,5 @@
 require 'rx'
-
+#memo for git
 def fft a
     n = a.size
     return a if n == 1
@@ -47,3 +47,4 @@ subscription = source.subscribe(
         puts 'Completed'
     }
 )
+
