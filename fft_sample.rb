@@ -1,5 +1,6 @@
+#sample fft
 require 'rx'
-#memo for git
+
 def fft a
     n = a.size
     return a if n == 1
