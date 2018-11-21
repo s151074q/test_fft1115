@@ -34,7 +34,9 @@ def fft_p a
     end
 end
 
-source = Rx::Observable.of a
+source = Rx::Observable.generate(
+    0,1..3
+)
 
 subscription = source.subscribe(
     lambda {|x|
